@@ -1,45 +1,77 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Politique de Confidentialité — PixelArtAI</title>
+    <title>Privacy Policy / Politique de Confidentialité — PixelArtAI</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; background: #fafafa; }
-        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; max-width: 860px; margin: 40px auto; padding: 0 20px; color: #333; background: #fafafa; }
+        .card { background: white; padding: 30px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); margin-bottom: 30px; }
         h1 { color: #1E1E2E; border-bottom: 2px solid #89B4FA; padding-bottom: 10px; }
         h2 { color: #45475A; margin-top: 25px; }
         p, li { color: #585B70; }
         .badge { background: #89B4FA; color: #11111B; font-weight: bold; padding: 4px 8px; border-radius: 6px; font-size: 0.9em; }
+        .nav { margin-bottom: 20px; }
+        .nav a { color: #1E66F5; text-decoration: none; font-weight: 600; margin-right: 15px; }
     </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Politique de Confidentialité</h1>
+    <div class="nav">
+        <a href="index.html">&larr; Back to PixelArtAI</a>
+        <a href="#en">🇬🇧 English</a>
+        <a href="#fr">🇫🇷 Français</a>
+    </div>
+
+    <div class="card" id="en">
+        <h1>🇬🇧 Privacy Policy — PixelArtAI</h1>
+        <p><strong>Application:</strong> PixelArtAI (<span class="badge">com.vince.pixelartai</span>)<br>
+        <strong>Last Updated:</strong> October 2026</p>
+
+        <h2>1. Overview</h2>
+        <p>PixelArtAI is an AI-assisted pixel art, tilemap, and 2D animation creation tool. Protecting our users' privacy and creative ownership is a core priority.</p>
+
+        <h2>2. Data Processed</h2>
+        <ul>
+            <li><strong>Local Artwork &amp; Gallery:</strong> Your sprites, animations, palettes, and imported images are stored locally on your device. You retain 100% ownership of your creations.</li>
+            <li><strong>AI Text Prompts:</strong> When you request an AI sprite generation, your text prompt is transmitted over encrypted HTTPS to our inference endpoint solely to generate the requested sprite.</li>
+            <li><strong>Account &amp; Pro Credits (Optional):</strong> If you sign in or purchase Pro generation credits (via Google Play Billing or Lemon Squeezy), our authentication backend (Supabase) stores only your account identifier and credit balance ledger.</li>
+            <li><strong>Rewarded Ads &amp; Analytics (Google AdMob):</strong> On mobile, the app uses Google AdMob (including Server-Side Verification for rewarded credits). AdMob may process anonymous advertising identifiers in accordance with Google's Privacy Policy.</li>
+        </ul>
+
+        <h2>3. Permissions</h2>
+        <ul>
+            <li><strong>Internet (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>):</strong> Used only for AI sprite generation, optional Pro credit sync, and AdMob rewarded ads.</li>
+            <li><strong>Storage / Share:</strong> Triggered strictly when you explicitly import a local reference image or export a PNG Sprite Sheet / JSON metadata file.</li>
+        </ul>
+
+        <h2>4. Security &amp; Contact</h2>
+        <p>All network traffic is encrypted via HTTPS / TLS 1.3. For any privacy inquiry or account deletion request, please contact the developer via the support email listed on the Google Play Store page.</p>
+    </div>
+
+    <div class="card" id="fr">
+        <h1>🇫🇷 Politique de Confidentialité — PixelArtAI</h1>
         <p><strong>Application :</strong> PixelArtAI (<span class="badge">com.vince.pixelartai</span>)<br>
         <strong>Dernière mise à jour :</strong> Octobre 2026</p>
 
         <h2>1. Présentation générale</h2>
-        <p>PixelArtAI est un logiciel de création de pixel art et d'animation assisté par intelligence artificielle. Nous accordons une importance primordiale à la protection de la vie privée de nos utilisateurs.</p>
+        <p>PixelArtAI est un studio de création de pixel art, de tilemaps isométriques et d'animation 2D assisté par intelligence artificielle. Nous accordons une importance primordiale à la protection de votre vie privée et de vos créations.</p>
 
-        <h2>2. Données collectées</h2>
+        <h2>2. Données traitées</h2>
         <ul>
-            <li><strong>Créations et dessins :</strong> Vos dessins, animations, et palettes restent strictement stockés en local sur votre appareil. Nous n'avons aucun accès à vos projets locaux.</li>
-            <li><strong>Prompts textuels IA :</strong> Lorsque vous utilisez le générateur IA, votre prompt texte est transmis de manière chiffrée à nos services d'inférence pour générer le sprite. Aucune donnée personnelle n'est associée à ces requêtes.</li>
-            <li><strong>Données analytiques et publicitaires :</strong> L'application intègre Google AdMob pour la diffusion d'annonces. Google AdMob peut collecter des identifiants publicitaires anonymes conformément à sa propre politique de confidentialité.</li>
+            <li><strong>Créations et Galerie locale :</strong> Vos dessins, animations, palettes et images importées restent stockés localement sur votre appareil. Vous conservez 100 % de la propriété de vos œuvres.</li>
+            <li><strong>Prompts textuels IA :</strong> Lorsque vous utilisez le générateur IA, votre prompt texte est transmis de manière chiffrée (HTTPS) à notre service d'inférence uniquement le temps de générer le sprite.</li>
+            <li><strong>Compte &amp; Crédits Pro (Optionnel) :</strong> Si vous synchronisez un compte ou achetez des crédits Pro (via Google Play ou Lemon Squeezy), notre base sécurisée (Supabase) conserve uniquement votre identifiant de compte et votre solde de crédits.</li>
+            <li><strong>Publicités récompensées (Google AdMob) :</strong> Sur mobile, l'application intègre Google AdMob (avec validation serveur SSV pour les crédits gratuits). Google AdMob peut traiter des identifiants publicitaires anonymes conformément à sa politique de confidentialité.</li>
         </ul>
 
         <h2>3. Permissions requises</h2>
         <ul>
-            <li><strong>Accès Internet (INTERNET, ACCESS_NETWORK_STATE) :</strong> Requis pour interroger le service de génération IA et charger les bannières publicitaires AdMob.</li>
-            <li><strong>Stockage / Partage :</strong> Requis uniquement lorsque vous choisissez d'exporter vos sprites ou animations sur votre appareil.</li>
+            <li><strong>Accès Internet (<code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code>) :</strong> Requis pour interroger le générateur IA, synchroniser les crédits Pro optionnels et charger les annonces AdMob.</li>
+            <li><strong>Stockage / Partage :</strong> Utilisé uniquement lorsque vous importez une image locale ou exportez vos Sprite Sheets PNG / JSON.</li>
         </ul>
 
-        <h2>4. Sécurité</h2>
-        <p>Toutes les communications réseau utilisent le protocole sécurisé HTTPS / TLS.</p>
-
-        <h2>5. Contact</h2>
-        <p>Pour toute question concernant cette politique de confidentialité, vous pouvez contacter le support à l'adresse du développeur indiquée sur la fiche Google Play Store.</p>
+        <h2>4. Sécurité &amp; Contact</h2>
+        <p>Toutes les communications réseau utilisent le protocole sécurisé HTTPS / TLS 1.3. Pour toute question ou demande de suppression de données, vous pouvez contacter le support à l'adresse indiquée sur la fiche Google Play Store.</p>
     </div>
 </body>
 </html>
